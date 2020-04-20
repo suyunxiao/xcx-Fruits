@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/demo/index1",
+    "pages/demo2/index",
+    "pages/demo3/index",
+    "pages/demo4/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#eee",
+    "selectedColor": "#fff",
+    "backgroundColor": "#464547",
+    "borderStyle": "black",
+    "list":[{
+      "pagePath": "pages/index/index",
+      "text": "",
+      "iconPath": "icons/tabbar_icon_selection.png",
+      "selectedIconPath": "icons/tabbar_icon_selection_press.png"
+    },{
+      "pagePath": "pages/demo2/index",
+      "text": "",
+      "iconPath": "icons/tabbar_icon_discover.png",
+      "selectedIconPath": "icons/tabbar_icon_discover_press.png"
+    },{
+      "pagePath": "pages/demo3/index",
+      "text": "",
+      "iconPath": "icons/tabbar_icon_setting.png",
+      "selectedIconPath": "icons/tabbar_icon_setting_press.png"
+    },{
+      "pagePath": "pages/demo4/index",
+      "text": "",
+      "iconPath": "icons/tabbar_icon_notifaction.png",
+      "selectedIconPath": "icons/tabbar_icon_notifaction_press.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
