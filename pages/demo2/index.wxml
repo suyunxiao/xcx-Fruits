@@ -1,2 +1,27 @@
-<!--pages/demo2/index.wxml-->
-<text>pages/demo2/index.wxml</text>
+
+<!-- <view class="container"> -->
+  <scroll-view scroll-y="true" class="scroll-view-item_H">
+            <view id="userView" class="userView">
+               <view id="userItem" class="userItem">
+                  <view class="section">
+                      <view class="flex-wrp" style="flex-direction:row;">
+                        <view class="flex-item bc_green userInfo"  wx:for="{{memberArr}}">
+                          <image style="width: 100%; height: 100%; background-color: #eeeeee;" mode="aspectFill" src="{{item.src}}"></image>
+                        </view>
+                      </view>
+                  </view>
+                  
+               </view>
+               
+            </view>
+            <view id="demo1" class="scroll-view-item demo-text-1 scrollCenterView">
+                <view class="page-section-spacing">
+                  <view class="userInfoGroup" style="flex-direction:row;">
+                  
+                  </view>
+                </view>
+            </view>
+            <view id="demo2"  class="scroll-view-item demo-text-2 scrollCenterView2"></view>
+            <view id="demo3" class="scroll-view-item demo-text-3 scrollCenterView"></view>
+  </scroll-view>
+<!-- </view> -->

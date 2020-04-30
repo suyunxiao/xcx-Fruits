@@ -5,7 +5,18 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    memberArr:[{
+      member:'aspectFill',
+      src:"./../../icons/member/member_icon.png",
+    },
+    {
+      member:'aspectFill',
+      src:"./../../icons/member/member_icon.png",
+    },
+    {
+      member:'aspectFill',
+      src:"./../../icons/member/member_icon.png",
+    },]
   },
 
   /**

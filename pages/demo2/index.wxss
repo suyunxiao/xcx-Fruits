@@ -1,1 +1,56 @@
-/* pages/demo2/index.wxss */
+
+/* .scroll-view_H{
+  white-space: nowrap;
+} */
+.scroll-view-item{
+  height: 100%;
+}
+.scroll-view-item_H{
+  width: 100%;
+  height: 100%;
+  background-color: coral;
+}
+
+.userView{
+  background-color: coral;
+  height: 200px;
+}
+
+.userItem{
+  background-color: rgb(231, 163, 139);
+  height: 100px;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.userInfo{
+  width: 30%;
+  height: 98%;
+  background-color: rgb(209, 166, 150);
+}
+
+.userInfoGroup{
+  width: 100%;
+  height: 95px;
+  background-color: cornsilk;
+}
+
+.scrollCenterView{
+  height: 200px;
+  background-color: aquamarine;
+}
+
+.scrollCenterView2{
+  height: 200px;
+  background-color: blueviolet;
+}
+
+
+.page-section{
+  margin-bottom: 20rpx;
+}
+.flex-wrp {display: flex;}
+.bc_green {background: rgb(18, 190, 18);width:200px; height: 100px;}
+.bc_red {background: red;width:200px; height: 100px;}
+.bc_blue {background: blue;width:200px; height: 100px;}
