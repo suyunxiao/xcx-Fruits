@@ -49,37 +49,43 @@ Page({
       src:"/icons/item/item1.png",
       oldPice:"30",
       newPice:"20",
-      itemId:"",
+      itemId:"1001",
+      lab:"文本1",
     },
     {
       src:"/icons/item/item2.png",
       oldPice:"30",
       newPice:"20",
-      itemId:"",
+      itemId:"1002",
+      lab:"文本2",
     },
     {
       src:"/icons/item/item3.png",
       oldPice:"90",
       newPice:"30",
-      itemId:"",
+      itemId:"1003",
+      lab:"文本3",
     },
     {
       src:"/icons/item/item1.png",
       oldPice:"10",
       newPice:"20",
-      itemId:"",
+      itemId:"1004",
+      lab:"文本4",
     },
     {
       src:"/icons/item/item2.png",
       oldPice:"",
       newPice:"",
-      itemId:"",
+      itemId:"1005",
+      lab:"文本5",
     },
     {
       src:"/icons/item/item3.png",
       oldPice:"",
       newPice:"",
-      itemId:"",
+      itemId:"1006",
+      lab:"文本6",
     },]
 
   },
@@ -140,5 +146,21 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+
+  /**
+   * 点击添加 +
+   */
+  addItem:function(event) {
+    console.log("addItem:" + event);
+  },
+
+ /**
+ * 点击图片跳转到对应详情
+ */
+  itemDetails:function(event) {
+    let id = event.currentTarget.id;
+    console.log("details id:" + id);
+  },
+
 })

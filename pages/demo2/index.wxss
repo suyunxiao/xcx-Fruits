@@ -38,7 +38,6 @@
 
 .scrollCenterView{
   height: 200px;
-  background-color: aquamarine;
 }
 
 .scrollCenterView2{
@@ -46,16 +45,17 @@
   background-color: blueviolet;
 }
 
-
 .page-section{
   margin-bottom: 20rpx;
 }
 
 .nav{
-  margin-top: 3px;
+  margin-top: 5px;
+  margin: auto;
   width:80px;
   height: 100px;
 }
+
 .nav-img{
   width: 90%; 
   height: 100%; 
@@ -64,10 +64,13 @@
 }
 
 .itemDiv{
-	width: 320rpx;
-	height: 350rpx;
-	margin-top: 50rpx;
-	background-color: #ffffff;
+	width: 48%;
+	height: 450rpx;
+  margin-top: 15rpx;
+  /* margin-left: 5rpx;
+  margin-right: 5rpx; */
+  background-color: rgb(255, 255, 255);
+  border-radius:5px 5px;
 }
 
 .waterfall{
@@ -80,8 +83,13 @@
 
 .waterfall-img{
 	width: 320rpx;
-	height: 250rpx;
-  background-color: blueviolet;
+  height: 250rpx;
+  transform: scale(0.8)
+}
+
+.waterfall-text{
+  font-size: 8pt;
+  margin-top: -20px;
 }
 
 .content {
@@ -89,7 +97,10 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
+  background-color: rgb(224, 224, 224);
+  text-align: center;
 }
+
 .content-cell {
 	width: 320rpx;
 	height: 350rpx;
@@ -119,7 +130,7 @@
 
 
 
-.flex-wrp {display: flex;}
-.bc_green {background: rgb(18, 190, 18);width:200px; height: 100px;}
+.flex-wrp {display: flex;width: 100%;background-color: chartreuse;}
+.bc_green {width:200px; height: 100px;}
 .bc_red {background: red;width:200px; height: 100px;}
 .bc_blue {background: blue;width:200px; height: 100px;}
