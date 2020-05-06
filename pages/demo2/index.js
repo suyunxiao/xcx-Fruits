@@ -16,13 +16,79 @@ Page({
     {
       member:'aspectFill',
       src:"./../../icons/member/member_icon.png",
+    },],
+    navArr:[{
+      member:'aspectFit',
+      src:"./../../icons/nav/nav1.png",
+    },
+    {
+      member:'aspectFit',
+      src:"./../../icons/nav/nav2.png",
+    },
+    {
+      member:'aspectFit',
+      src:"./../../icons/nav/nav3.png",
+    },
+    {
+      member:'aspectFit',
+      src:"./../../icons/nav/nav4.png",
+    },],
+    bannerArr:[{
+      menber:'aspectFit',
+      src:"/icons/banner/banner1.jpg"
+    },
+    {
+      menber:'aspectFit',
+      src:"/icons/banner/banner2.jpg"
+    },
+    {
+      menber:'aspectFit',
+      src:"/icons/banner/banner3.jpg"
+    },],
+    itemArr:[{
+      src:"/icons/item/item1.png",
+      oldPice:"30",
+      newPice:"20",
+      itemId:"",
+    },
+    {
+      src:"/icons/item/item2.png",
+      oldPice:"30",
+      newPice:"20",
+      itemId:"",
+    },
+    {
+      src:"/icons/item/item3.png",
+      oldPice:"90",
+      newPice:"30",
+      itemId:"",
+    },
+    {
+      src:"/icons/item/item1.png",
+      oldPice:"10",
+      newPice:"20",
+      itemId:"",
+    },
+    {
+      src:"/icons/item/item2.png",
+      oldPice:"",
+      newPice:"",
+      itemId:"",
+    },
+    {
+      src:"/icons/item/item3.png",
+      oldPice:"",
+      newPice:"",
+      itemId:"",
     },]
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log("data:" + JSON.stringify(options));
 
   },
 
@@ -37,7 +103,8 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    let itemArr = this.data.itemArr;
+    this.data.itemArr.concat(itemArr);
   },
 
   /**

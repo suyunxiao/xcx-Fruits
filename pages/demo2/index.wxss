@@ -50,6 +50,75 @@
 .page-section{
   margin-bottom: 20rpx;
 }
+
+.nav{
+  margin-top: 3px;
+  width:80px;
+  height: 100px;
+}
+.nav-img{
+  width: 90%; 
+  height: 100%; 
+  background-color: #eeeeee;
+  transform: scale(0.6)
+}
+
+.itemDiv{
+	width: 320rpx;
+	height: 350rpx;
+	margin-top: 50rpx;
+	background-color: #ffffff;
+}
+
+.waterfall{
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+
+.waterfall-img{
+	width: 320rpx;
+	height: 250rpx;
+  background-color: blueviolet;
+}
+
+.content {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+.content-cell {
+	width: 320rpx;
+	height: 350rpx;
+	margin-top: 50rpx;
+	background-color: #ffffff;
+	/*border-radius: 15px;*/
+}
+
+.content-cell image {
+	/*border: 1px solid red;*/
+	width: 320rpx;
+	height: 250rpx;
+}
+
+.swiper-indicator{
+  /* margin-top: -250px; */
+}
+
+/*
+滚动条 
+ */
+.bannerArr-img{
+  width: 100%;
+  height: 65%; 
+  /* transform: scale(0.6) */
+}
+
+
+
 .flex-wrp {display: flex;}
 .bc_green {background: rgb(18, 190, 18);width:200px; height: 100px;}
 .bc_red {background: red;width:200px; height: 100px;}

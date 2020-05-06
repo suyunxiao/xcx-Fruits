@@ -17,11 +17,52 @@
             <view id="demo1" class="scroll-view-item demo-text-1 scrollCenterView">
                 <view class="page-section-spacing">
                   <view class="userInfoGroup" style="flex-direction:row;">
-                  
+                  <!-- swiper -->
+                  <!-- indicator-dots="true"  -->
+                  <view class="page-section page-section-spacing swiper">
+                    <swiper  autoplay="true" interval="5000" duration="500" class = "swiper-indicator">
+                      <block wx:for="{{bannerArr}}" wx:key="*this">
+                        <swiper-item>
+                          <!-- <view class="swiper-item {{item}}"> -->
+                            <image class="bannerArr-img" mode="aspectFill" src="{{item.src}}"></image>
+                          <!-- </view> -->
+                        </swiper-item>
+                      </block>
+                    </swiper>
                   </view>
+                  <!-- swiper end-->
+                  </view>
+                  <!-- nav -->
+                  <view class="flex-wrp" style="flex-direction:row; background-color: #ededed">
+                        <view class="flex-item nav"  wx:for="{{navArr}}">
+                          <image class="nav-img" src="{{item.src}}"></image>
+                        </view>
+                  </view>
+                  <!-- nav end -->
                 </view>
             </view>
-            <view id="demo2"  class="scroll-view-item demo-text-2 scrollCenterView2"></view>
-            <view id="demo3" class="scroll-view-item demo-text-3 scrollCenterView"></view>
+            <view id="demo2"  class="scroll-view-item demo-text-2">
+                <view class="content">
+                  <!-- <block wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}}"> -->
+                        <view class="itemDiv" wx:for="{{itemArr}}">
+                          <image class="waterfall-img" src=""  mode="scaleToFill" binderror="imageError"/>
+                        </view>
+                <!-- </block> -->
+
+                </view>
+            </view>
+            <view id="demo3" class="scroll-view-item demo-text-3 scrollCenterView">
+            	<view class="content">
+                <!-- <block wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}}"> -->
+                  <view class="content-cell" wx:for="{{itemArr}}">
+                    <image src="http://oalppxaqn.bkt.clouddn.com/%E8%BD%BB%E5%A5%A2%E7%A4%BC%E7%89%A9%E8%AF%B4.png" mode="scaleToFill" binderror="imageError"/>
+                    <text class="describe">照明台灯 钟表 小床</text>
+                    <view style="color: red; font-size: 8pt;" class="price-now">$ 120.00</view>
+                  </view>
+                <!-- </block> -->
+              </view>
+            </view>
+            
   </scroll-view>
+
 <!-- </view> -->
