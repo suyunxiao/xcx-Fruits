@@ -10,4 +10,17 @@
   <view class="usermotto">
     <!-- <text class="user-motto">{{motto}}</text> -->
   </view>
+  <!-- <view class="bottomBar" style="flex-direction:row; "> -->
+    <!-- <view class="bottomBar-view">
+        直接购买
+    </view>
+    <image class="bottomBar-img" src="/icons/rabbar/tabbar2.png" ></image>
+    <image class="bottomBar-img" src="/icons/rabbar/tabbar2.png" ></image>
+    <image class="bottomBar-img" src="/icons/rabbar/tabbar2.png" ></image>
+    <view class="bottomBar-view">
+        直接购买
+    </view> -->
+   
+  <!-- </view> -->
 </view>
+

@@ -4,6 +4,22 @@ const app = getApp()
 
 Page({
   data: {
+    navArr:[{
+      member:'aspectFit',
+      src:"./../../icons/nav/nav1.png",
+    },
+    {
+      member:'aspectFit',
+      src:"./../../icons/nav/nav2.png",
+    },
+    {
+      member:'aspectFit',
+      src:"./../../icons/nav/nav3.png",
+    },
+    {
+      member:'aspectFit',
+      src:"./../../icons/nav/nav4.png",
+    },],
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
@@ -50,5 +66,19 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+  onShare:function(){
+    console.log("onShare================");
+    this.onShareAppMessage(null);
+  },
+  onShareAppMessage: function (res) {        
+    console.log("onShareAppMessage");
+    
+    var shareImg = "/icons/fruits/fruits1.png";
+    return {
+        title: "listInfo.name",
+        imageUrl: shareImg,
+        path: '/pages/demo2/index?id=' + 666,
+    }
+  },
 })

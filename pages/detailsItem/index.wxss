@@ -1,0 +1,117 @@
+
+.detailsItemBG{
+  background-color: rgb(238, 238, 238);
+}
+
+.smallFont{
+  font-size: 14px;
+}
+
+/*
+滚动条 
+ */
+ .bannerArr-img{
+  width: 100%;
+  height: 400px; 
+}
+
+.bannerGroup{
+  height: 350px;
+}
+
+.infoDiv{
+  width: 100%;
+  background-color: white;
+}
+
+.name{
+  font-size: 18px;
+}
+
+.tips{
+  font-size: 14px;
+  color: rgb(51, 49, 49);
+}
+
+.pice{
+  font-size: 25px;
+  color: rgb(250, 124, 124);
+}
+
+.serviceDiv{
+  margin-top: 10px;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  line-height: 20px;
+}
+
+.icon-box-img{
+  text-align: center;
+  line-height: 5px;
+}
+
+.explain{
+  width: 100%;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.explain-img-group{
+  text-align: center;
+  height: 1050px; 
+}
+
+.explain-img{
+  width: 98%;
+  height: 1000px; 
+  margin-top: 0px;
+}
+
+.bottomBar{
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  bottom: 0px;
+}
+
+.bottomBar-view{
+  width: 50px;
+  height: 20px;
+  background-color: blue;
+  color: aqua;
+  bottom: -51px;
+  text-align: center;
+}
+
+.nav{
+  margin-top: 5px;
+  width:25%;
+  height: 110px;
+  float: left;
+  margin: auto;
+}
+
+.bottomBar-img{
+  width: 100%; 
+  height: 100%; 
+  transform: scale(0.4);
+  margin-top: -28px;
+}
+
+.userInfoGroup{
+  width: 100%;
+  height: 51px;
+  background-color: white;
+}
+
+.shopping-view{
+  width: 100px;
+  height: 30px;
+  background-color: chartreuse;
+  margin-top: 10px;
+  margin-left: 40px;
+  border-radius:18px 18px;
+  text-align: center;
+  line-height: 30px;
+}

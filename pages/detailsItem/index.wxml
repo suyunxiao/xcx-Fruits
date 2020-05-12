@@ -1,0 +1,59 @@
+<!-- 详情页面 -->
+<view class="detailsItemBG">
+  <scroll-view scroll-y="true" class="scroll-view-item_H">
+  <!-- 滚动条 -->
+    <view class="page-section page-section-spacing swiper">
+      <swiper  autoplay="true" interval="5000" duration="500" class = "swiper-indicator bannerGroup">
+        <block wx:for="{{bannerArr}}" wx:key="*this">
+          <swiper-item>
+              <image class="bannerArr-img" mode="{{item.menber}}" src="{{item.src}}"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  <!-- 配置数据 -->
+  <view class="infoDiv">
+    <view wx:for="{{infoDetails}}">
+      <text class="name">{{item.name}}\n</text>
+      <text class="tips">{{item.tips}}\n</text>
+      <text class="pice"><text class="smallFont">￥</text>{{item.pice}}\n</text>
+    </view> 
+  </view>
+  <view class="serviceDiv">
+    <text class="smallFont" style="color: rgb(102, 102, 102);line-height: 20px;">服务  </text>三无退货 品控质检
+    <text class="smallFont" style="color: rgb(102, 102, 102);margin-top: 50px;line-height: 20px;">\n\n活动 </text>
+    <text> 无 </text>
+    <!-- <text>\n无 </text> -->
+  </view>
+  <view class="explain">
+    <view style="line-height: 20px;height:25px">
+      <text>商品说明</text>
+    </view>
+    <view wx:for="{{imgArr}}" class="explain-img-group">
+      <image class="explain-img"  style="background-color: #eeeeee;" mode="aspectFit" src="{{item.src}}"></image>
+    </view>
+  </view>
+  </scroll-view>
+  <div>
+  <!-- 底部栏 -->
+  <view class="bottomBar">
+    <view class="userInfoGroup" style="flex-direction:row;">
+      <view class="flex-wrp" style="flex-direction:row;">
+        <view class="flex-item nav">
+          <image class="bottomBar-img" src="/icons/rabbar/cart.png"></image>
+        </view>
+        <view class="flex-item nav">
+          <image class="bottomBar-img" src="/icons/rabbar/orderListNormal.png" bindtap="onShare"></image>
+        </view>
+        <view class="flex-item nav shopping-view">
+            <text>直接购买</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  </div>
+</view>
+
+
+
+

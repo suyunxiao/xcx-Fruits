@@ -50,8 +50,8 @@
 }
 
 .nav{
-  margin-top: 5px;
   margin: auto;
+  margin-top: 5px;
   width:80px;
   height: 100px;
 }
@@ -87,9 +87,54 @@
   transform: scale(0.8)
 }
 
+.waterfall-addimg{
+  width: 20px;
+  height: 20px;
+  right: 0px;
+}
+
+.moenyFont{
+  color: rgb(243, 128, 128);
+  font-size: 10px;
+}
+
+.moenyFont2{
+  color: rgb(243, 128, 128);
+  font-size: 18px;
+}
+
+.itemCenterDiv{
+  height: 25px;
+  width: 33%;
+  text-align: center;
+}
+
+.centerDiv{
+  text-align: center;
+}
+
+
+.divFont{
+  font-size: 10px;
+  text-align: left;
+  color: #b9b9b9;
+  margin-left: 10px;
+}
+
+.detailsItem{
+  height: 35px;
+}
+
+
+.imgDiv{
+  width: 50px;
+  height: 25px;
+  background-color: bisque;
+  text-align: right;
+}
+
 .waterfall-text{
   font-size: 8pt;
-  margin-top: -20px;
 }
 
 .content {
@@ -115,9 +160,6 @@
 	height: 250rpx;
 }
 
-.swiper-indicator{
-  /* margin-top: -250px; */
-}
 
 /*
 滚动条 
@@ -130,7 +172,14 @@
 
 
 
-.flex-wrp {display: flex;width: 100%;background-color: chartreuse;}
+.flex-wrp {display: flex;width: 100%;}
 .bc_green {width:200px; height: 100px;}
 .bc_red {background: red;width:200px; height: 100px;}
 .bc_blue {background: blue;width:200px; height: 100px;}
+
+.bg_red{
+  background-color: red;
+}
+.bg_blue{
+  background-color: blue;
+}

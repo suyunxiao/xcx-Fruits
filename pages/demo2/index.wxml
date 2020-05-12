@@ -43,7 +43,30 @@
                         <view class="itemDiv" wx:for="{{itemArr}}">
                           <image class="waterfall-img" src="{{item.src}}" id="{{item.itemId}}" mode="scaleToFill" binderror="imageError" bindtap="itemDetails"/>
                           <view><text class="waterfall-text">{{item.lab}}</text></view>
-                          <view><text class="waterfall-text">6666</text><mp-icon icon="add" color="black" size="25" bindtap="addItem"> + </mp-icon></view>
+
+                          <view class="section">
+                            <view class="flex-wrp" style="flex-direction:column;">
+                              <view class="flex-item divFont detailsItem">
+                              现切果肉，建议冷冻，尽快食用
+                              </view>
+                              <view class="flex-item detailsItem">
+                                <view class="section">
+                                  <view class="flex-wrp" style="flex-direction:row;">
+                                    <view class="itemCenterDiv">
+                                      <text class="moenyFont">￥</text><text class="moenyFont2">{{item.newPice}}</text>
+                                    </view>
+                                    <view class="itemCenterDiv"></view>
+                                    <view class="itemCenterDiv">
+                                        <image src="/icons/shopping/mealBoxAdd.png" class="waterfall-addimg"></image>
+                                    </view>
+                                  </view>
+                                </view>
+                              </view>
+                            </view>
+                           </view>
+
+                          
+                          
                         </view>
                 </view>
             </view>
