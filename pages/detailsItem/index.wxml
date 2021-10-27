@@ -20,7 +20,7 @@
     </view> 
   </view>
   <view class="serviceDiv">
-    <text class="smallFont" style="color: rgb(102, 102, 102);line-height: 20px;">服务  </text>三无退货 品控质检
+    <text class="serviceDivText smallFont">服务</text> <image class="serviceDivImg" mode="aspectFit" src="/icons/details/tips1.png"></image>
     <text class="smallFont" style="color: rgb(102, 102, 102);margin-top: 50px;line-height: 20px;">\n\n活动 </text>
     <text> 无 </text>
     <!-- <text>\n无 </text> -->
@@ -30,7 +30,7 @@
       <text>商品说明</text>
     </view>
     <view wx:for="{{imgArr}}" class="explain-img-group">
-      <image class="explain-img"  style="background-color: #eeeeee;" mode="aspectFit" src="{{item.src}}"></image>
+      <image class="explain-img"  mode="aspectFit" src="{{item.src}}"></image>
     </view>
   </view>
   </scroll-view>

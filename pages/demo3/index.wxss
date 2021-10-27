@@ -1,1 +1,95 @@
-/* pages/demo3/index.wxss */
+
+.nav{
+  margin: auto;
+  margin-top: 5px;
+  width:100%;
+  height: 100px;
+  line-height: 50px;
+}
+
+.icon-box-img{
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.itemView1{
+  width: 50px;
+  height: 90px;
+}
+
+.itemView2{
+  width: 150px;
+  height: 150px;
+  background-color: turquoise;
+}
+
+.itemView2-img{
+  width: 100%;
+  height: 100%;
+}
+
+.itemView3{
+  width: 350px;
+  background-color: thistle;
+}
+
+.nav-img{
+  width: 90%; 
+  height: 100%; 
+  background-color: #eeeeee;
+  transform: scale(0.6)
+}
+
+.bottomBar{
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  bottom: 0px;
+}
+
+.bottomBar-view{
+  width: 50px;
+  height: 20px;
+  background-color: blue;
+  color: aqua;
+  bottom: -51px;
+  text-align: center;
+}
+
+.bottomBar-img{
+  width: 100%; 
+  height: 100%; 
+  transform: scale(0.4);
+  margin-top: -28px;
+}
+
+.userInfoGroup{
+  width: 100%;
+  height: 51px;
+  background-color: white;
+}
+
+.serviceDivImg{
+  width: 250px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.shopping-view{
+  width: 100px;
+  height: 30px;
+  background-color: #019342;
+  margin-top: 10px;
+  margin-left: 40px;
+  border-radius:18px 18px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.flex-wrp {display: flex;width: 100%;}
+.bc_green {width:200px; height: 100px;}
+.bc_red {background: red;width:200px; height: 100px;}
+.bc_blue {background: blue;width:200px; height: 100px;}

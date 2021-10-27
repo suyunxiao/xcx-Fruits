@@ -5,7 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    navArr:[{
+      member:'aspectFit',
+      src:"./../../icons/nav/nav1.png",
+    },
+    {
+      member:'aspectFit',
+      src:"./../../icons/nav/nav2.png",
+    },
+    {
+      member:'aspectFit',
+      src:"./../../icons/nav/nav3.png",
+    },
+    {
+      member:'aspectFit',
+      src:"./../../icons/nav/nav4.png",
+    },]
   },
 
   /**

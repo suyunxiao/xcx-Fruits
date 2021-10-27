@@ -5,7 +5,43 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    navArr:[{
+      member:'aspectFit',
+      src:"./../../icons/nav/nav1.png",
+    },
+    {
+      member:'aspectFit',
+      src:"./../../icons/nav/nav2.png",
+    },
+    {
+      member:'aspectFit',
+      src:"./../../icons/nav/nav3.png",
+    },
+    {
+      member:'aspectFit',
+      src:"./../../icons/nav/nav4.png",
+    },],
+    itemArr:[{
+      src:"/icons/fruits/fruits1.png",
+      oldPice:"30",
+      newPice:"20",
+      itemId:"1001",
+      lab:"苹果",
+    },
+    {
+      src:"/icons/fruits/fruits2.png",
+      oldPice:"30",
+      newPice:"20",
+      itemId:"1002",
+      lab:"草莓",
+    },
+    {
+      src:"/icons/fruits/fruits3.png",
+      oldPice:"90",
+      newPice:"30",
+      itemId:"1003",
+      lab:"樱桃",
+    },]
   },
 
   /**

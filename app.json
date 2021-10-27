@@ -1,9 +1,9 @@
 {
   "pages":[
+    "pages/demo3/index",
     "pages/index/index",
     "pages/demo/index1",
     "pages/demo2/index",
-    "pages/demo3/index",
     "pages/demo4/index",
     "pages/detailsItem/index",
     "pages/logs/logs"
@@ -22,18 +22,18 @@
     "list":[{
       "pagePath": "pages/index/index",
       "text": "",
-      "iconPath": "icons/tabbar_icon_selection.png",
-      "selectedIconPath": "icons/tabbar_icon_selection_press.png"
+      "iconPath": "icons/rabbar/home_2.png",
+      "selectedIconPath": "icons/rabbar/home_1.png"
     },{
       "pagePath": "pages/demo2/index",
       "text": "",
-      "iconPath": "icons/tabbar_icon_discover.png",
-      "selectedIconPath": "icons/tabbar_icon_discover_press.png"
+      "iconPath": "icons/rabbar/store_2.png",
+      "selectedIconPath": "icons/rabbar/store_1.png"
     },{
       "pagePath": "pages/demo3/index",
       "text": "",
-      "iconPath": "icons/tabbar_icon_setting.png",
-      "selectedIconPath": "icons/tabbar_icon_setting_press.png"
+      "iconPath": "icons/rabbar/order_2.png",
+      "selectedIconPath": "icons/rabbar/order_1.png"
     },{
       "pagePath": "pages/demo4/index",
       "text": "",
